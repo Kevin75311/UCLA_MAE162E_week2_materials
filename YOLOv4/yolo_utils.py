@@ -59,7 +59,7 @@ def nms_bbox(bounding_boxes, confidence_probs, confidenceThreshold, nmsThreshold
     """This function performs non-max suppression on all the bounding boxes detected and keeps the best one"""    
     #Using OpenCV DNN non-max supression to get the best bounding box of the detected object (retrieve the indices)
     indices_bbox = cv2.dnn.NMSBoxes(bounding_boxes, confidence_probs, confidenceThreshold, nmsThreshold)   
-    print('Number of objects detected : ', len(indices_bbox), '\n')
+    # print('Number of objects detected : ', len(indices_bbox), '\n')
     
     return indices_bbox
 
@@ -74,7 +74,7 @@ def box_drawing(input_frame, indices, bounding_boxes, class_objects, confidence_
     # we'll retrieve the bounding boxes values (coordinates) now and use them to draw our boxes.
         x, y, w, h = final_box[0], final_box[1], final_box[2], final_box[3]
         x, y, w, h = int(x), int(y), int(w), int(h)        
-        print('Bounding box coordinates in the frame : ', 'x : ', x,'|| y : ',y,'|| w : ',w,'|| h :',h , '\n')
+        # print('Bounding box coordinates in the frame : ', 'x : ', x,'|| y : ',y,'|| w : ',w,'|| h :',h , '\n')
     
         cv2.rectangle(input_frame, (x,y), (x+w,y+h),  color, thickness)
         cv2.putText(input_frame, f'{classNames[class_objects[i]].upper()} {int(confidence_probs[i]*100)}%',

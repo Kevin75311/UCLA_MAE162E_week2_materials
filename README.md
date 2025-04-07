@@ -1,7 +1,14 @@
 # This is a OpenCV and YOLO object detection tutorial designed for MAE162E
 
 ## installation
-please intall "python-opencv" and "picamera2".
+Clone the repository
+```
+git clone https://github.com/Kevin75311/UCLA_MAE162E_week2_materials.git
+```
+Install the environment from the yml file
+```
+conda env create -f week2.yml
+```
 
 ## usage 
 * OpenCV examples

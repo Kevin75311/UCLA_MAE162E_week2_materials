@@ -3,6 +3,7 @@ import numpy as np
 
 # Load the video
 cap = cv2.VideoCapture("example3_green.mp4")
+# cap = cv2.VideoCapture("example3_red.mp4") # Use this for TODO 2
 
 # Define the green color range in HSV
 lower_green = np.array([30, 150, 50])

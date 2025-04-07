@@ -3,7 +3,6 @@ import numpy as np
 
 # read the image
 img = cv2.imread("example4_1.jpg")
-# img = cv2.imread("example4_2.jpg")
 
 # resize the image
 img = cv2.resize(img, (500, 500))
