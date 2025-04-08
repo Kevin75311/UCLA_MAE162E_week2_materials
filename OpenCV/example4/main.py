@@ -8,7 +8,7 @@ img = cv2.imread("example4_1.jpg")
 img = cv2.resize(img, (500, 500))
 
 # load the Haar Cascade classifier for face detection
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 
 # detect faces in the image
 result = img.copy()
