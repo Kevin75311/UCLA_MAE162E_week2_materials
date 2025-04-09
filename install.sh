@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda create -n week2_new python=3.12
+conda create -y -n week2_new python=3.12
 conda init bash
 conda activate week2_new
 
