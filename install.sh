@@ -17,3 +17,6 @@ pip install -y rpi-kms
 
 sudo apt-get install -y libcap-dev
 pip install -y picamera2
+
+cd ./YOLOv4/weights
+gdown 18RjNcN-wpUMie2FpkYxdG0MMrF0rP5Ns
