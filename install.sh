@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status
-set -e
-
 conda create -n week2_new python=3.12
+conda init bash
 conda activate week2_new
 
 conda install opencv
