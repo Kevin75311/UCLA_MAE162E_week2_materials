@@ -18,7 +18,7 @@ pip install rpi-kms
 sudo apt-get install -y libcap-dev
 pip install picamera2
 
-pip install -y gdown
+pip install gdown
 mkdir ./YOLOv4/weights
 cd ./YOLOv4/weights
 gdown 18RjNcN-wpUMie2FpkYxdG0MMrF0rP5Ns
