@@ -1,9 +1,5 @@
 #!/bin/bash
 
-conda create -y -n week2_new python=3.12
-conda init bash
-conda activate week2_new
-
 conda install opencv
 conda install -c conda-forge libstdcxx-ng -y
 
