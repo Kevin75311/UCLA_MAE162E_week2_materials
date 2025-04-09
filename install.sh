@@ -10,13 +10,13 @@ conda install -c conda-forge libstdcxx-ng -y
 
 sudo apt update
 sudo apt install -y libcamera-dev
-pip install -y rpi-libcamera
+pip install rpi-libcamera
 
 sudo apt install -y libkms++-dev libfmt-dev libdrm-dev
-pip install -y rpi-kms
+pip install rpi-kms
 
 sudo apt-get install -y libcap-dev
-pip install -y picamera2
+pip install picamera2
 
 pip install -y gdown
 mkdir ./YOLOv4/weights
