@@ -19,5 +19,6 @@ sudo apt-get install -y libcap-dev
 pip install -y picamera2
 
 pip install -y gdown
+mkdir ./YOLOv4/weights
 cd ./YOLOv4/weights
 gdown 18RjNcN-wpUMie2FpkYxdG0MMrF0rP5Ns
